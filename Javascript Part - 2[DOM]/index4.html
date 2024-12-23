@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>background color change</title>
+  <script src="/script122.js" defer></script>
+  <style>
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+
+    }
+    .container{
+
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    h1{
+
+      padding: 1rem;
+      background-color: #333;
+      color: #efefef;
+      border-radius: 1rem;
+    }
+
+    button{
+      padding: 1rem 2rem;
+      font-size: 1.4rem;
+      border-radius: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      border: none;
+      outline: none;
+      transition: background 0.4s;
+    }
+
+    button:hover{
+      background-color: #584e4e;
+    }
+
+
+  </style>
+</head>
+<body>
+  
+<!-- <button style="cursor: pointer;" class="mybtn">Click me</button> -->
+ <main>
+  <div class="container">
+    <h1>Current Color :<span>rgb(255,255,255)</span></h1>
+
+    <button>Change background Color</button>
+  </div>
+ </main>
+
+</body>
+</html>

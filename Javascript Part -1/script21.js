@@ -1,0 +1,28 @@
+// intro of for loop
+// print o to 100
+
+// for (let i = 0;i<=100;i++){
+//   console.log(i);
+// }
+// console.log(i);
+
+//example
+
+//sum of n natural number
+
+// let num=10
+// let total = 0
+// let i=1
+// for (;i<=num;i++){
+//   total +=i
+// }
+// console.log(total);
+
+
+
+
+
+
+
+// practise ??????????????????????????????????
+
