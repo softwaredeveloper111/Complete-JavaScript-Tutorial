@@ -1,6 +1,8 @@
+// anylise the code 
+
 console.log(this);
 console.log(window);
-console.log(myFunc);
+console.log(myFunction);
 console.log(fullName);
 
 //function declaration
@@ -15,6 +17,6 @@ var fullName = firstName + " "+lastName
 console.log(fullName);
 
 
-
-// after complete of all  the code execution global execution context pop from stack\
+// Global exection contex add in stack data structure.
+// after execute  all  the code , global execution context pop from stack
 // stack mein currnt execution context rehta hai

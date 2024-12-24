@@ -2,14 +2,22 @@
 //querySelectorAll hamein static list degi
 // getELementsBySomething hamein live list degi
 
-const ul = document.querySelectorAll('.todo-list')
-const listItems = ul.getElementByTagName('li')
-
-
-const sixthli = document.createElement('li')
-sixthli.textContent = "item 6"
 
 
 
-ul.append(sixthli)
+
+
+const myList = document.querySelector('.todolist'); 
+
+
+const listItems = myList.querySelectorAll('li');
+
+
+const sixthli = document.createElement('li');
+sixthli.textContent = "item 6";
+
+
+myList.append(sixthli);
+
+
 console.log(listItems);

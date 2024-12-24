@@ -52,12 +52,15 @@
 
 // practise ?????????????????????????
 
-const outerFunction = function(fname,lname){
-  function fullName(){
-    console.log(`${fname} ${lname}`);
-  }
-  return fullName
-}
+// const outerFunction = function(fname,lname){
+//   function fullName(){
+//     console.log(`${fname} ${lname}`);
+//   }
+//   return fullName
+// }
 
-const u1=outerFunction('sourav','giri')
-u1()
+// const u1=outerFunction('sourav','giri')
+// u1()
+
+
+

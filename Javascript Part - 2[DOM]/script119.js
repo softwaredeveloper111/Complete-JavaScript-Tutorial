@@ -8,7 +8,7 @@
 // })
 
 
-// jab bhi mai kisi bhi element pe event listener add hoga
+// jab bhi mai kisi bhi element pe event listener add karunga,
 // js Engine -- line by line execute karta hai
 // browser -- js Engine + extra features
 // browser --- js Engine + webApi
@@ -23,14 +23,27 @@
 
 
 
-const buttons = document.querySelectorAll('button')
+// const buttons = document.querySelectorAll('button')
 
 
-for(let button of buttons){
-  button.addEventListener('click',(event)=>{
-    // console.log(event);
-    console.log(event.target);
-    console.log(event.currentTarget);
+// for(let button of buttons){
+//   button.addEventListener('click',(event)=>{
+//     // console.log(event);
+//     console.log(event.target);
+//     console.log(event.currentTarget);
 
-  })
-}
+//   })
+// }
+
+
+
+
+
+
+// practise ????????????????????????????
+
+const button = document.querySelector('.btn')
+button.addEventListener('click',function(event){
+  console.log(this);
+  console.log(event.currentTarget);
+})

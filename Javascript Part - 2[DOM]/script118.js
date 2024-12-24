@@ -39,8 +39,17 @@ const buttons = document.querySelectorAll('button')
 // }
 
 
-buttons.forEach(function(button){
-  button.addEventListener('click',function(){
-    console.log(this);
-  })
-})
+// buttons.forEach(function(button){
+//   button.addEventListener('click',function(){
+//     console.log(this);
+//   })
+// })
+
+
+
+
+
+
+
+// practise ??????????????????????????????
+

@@ -37,10 +37,9 @@
 
 // event capturng : 
 
-// const grandparent = document.querySelector('.grandparent')
-// const parent = document.querySelector('.parent')
-// const child = document.querySelector('.child')
-
+const grandparent = document.querySelector('.grandparent')
+const parent = document.querySelector('.parent')
+const child = document.querySelector('.child')
 
 //capture
 // child.addEventListener('click',()=>{
@@ -90,9 +89,9 @@
 
 //event deligation : you dont need set event for different div . just set event on parent it will apply on its child
 
-const grandparent = document.querySelector('.grandparent')
-const parent = document.querySelector('.parent')
-const child = document.querySelector('.child')
+// const grandparent = document.querySelector('.grandparent')
+// const parent = document.querySelector('.parent')
+// const child = document.querySelector('.child')
 
 grandparent.addEventListener('click',(e)=>{
   console.log(e.target);

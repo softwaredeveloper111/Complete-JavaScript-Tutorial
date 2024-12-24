@@ -1,4 +1,4 @@
-// how to selec an html element in js
+// how to selec an html element with getElementById in js
 
 
 
@@ -28,3 +28,12 @@
 // const navItems = document.querySelectorAll('.nav-item')
 // console.log(navItems);
 // console.log(navItems[0]);
+
+
+
+
+
+
+
+// practitse ???????????????????????????????? 
+

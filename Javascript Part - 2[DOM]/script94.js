@@ -1,3 +1,5 @@
+// analize the code.
+
 console.log(myFunction);
 // myFunction();
 //function expression

@@ -11,10 +11,13 @@
 // console.log(Array.isArray(navItems));
 
 
-const navItems = document.querySelectorAll('.nav-item') // return array like objects (ndoe list)
+const navItems = document.querySelectorAll('.nav-item') // return array like objects (node list)
 // console.log(navItems);
 console.log(navItems[0]);
 console.log(navItems[1]);
 
 
 // arry like object --> indexing,lenght property 
+
+
+

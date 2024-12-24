@@ -1,11 +1,14 @@
- const rootNode = document.getRootNode()
+// DOM TREE  
+ 
+ 
+//  const rootNode = document.getRootNode()
 //  console.log(rootNode);
-const htmlElementNodes = (rootNode.childNodes[0]);
-// console.log(htmlNodes);
-const html_ChildNodes = htmlElementNodes.childNodes
-const headElementNode = html_ChildNodes[0]
-const textElementNode = html_ChildNodes[1]
-const bodyElementNode = html_ChildNodes[2]
+// const htmlElementNodes = (rootNode.childNodes[0]);
+// console.log(htmlElementNodes);
+// const html_ChildNodes = htmlElementNodes.childNodes
+// const headElementNode = html_ChildNodes[0]
+// const textElementNode = html_ChildNodes[1]
+// const bodyElementNode = html_ChildNodes[2]
 
 
 // console.log(headElementNode);
@@ -49,13 +52,20 @@ const bodyElementNode = html_ChildNodes[2]
 
 
 // const head = document.querySelector('head')
-// // console.log(head);
+// console.log(head);
 // const title = head.querySelector('title')
 // console.log(title.childNodes);
 
 
 
 
-const container= document.querySelector('.container')
-// console.log(container.childNodes);
-console.log(container.children); // remove the new line space text
+// const container1= document.querySelector('.container')
+// console.log(container1.childNodes);
+// console.log(container1.children); // remove the new line space text
+
+
+
+
+
+
+

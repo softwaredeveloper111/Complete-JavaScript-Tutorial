@@ -9,7 +9,7 @@
 
 
 
-const btn = document.querySelector('.btn-headline')
+// const btn = document.querySelector('.btn-headline')
 
 
 // 2)
@@ -25,3 +25,13 @@ const btn = document.querySelector('.btn-headline')
 btn.addEventListener('click',()=>{
   console.log('hello world');
 })
+
+
+
+
+
+
+
+
+// practise ???????????????????????????
+

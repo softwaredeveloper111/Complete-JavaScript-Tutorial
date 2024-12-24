@@ -1,3 +1,5 @@
+//Analize the code
+
 console.log("hello world");
 let firstName = "harshit"
 let lastName = "vashistha"

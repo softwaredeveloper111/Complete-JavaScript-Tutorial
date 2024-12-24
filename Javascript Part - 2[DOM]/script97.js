@@ -1,3 +1,5 @@
+// function execution context
+
 let foo = 'foo';
 console.log(foo);
 function getFullName(firstName,lastName){

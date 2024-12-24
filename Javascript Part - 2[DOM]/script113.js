@@ -31,7 +31,21 @@
 
 
 
-const todoList = document.querySelector('.todo-list')
-// console.log(todoList);
-// todoList.after("<li>hello world</li>")
-todoList.before("<li>hello world</li>")
+// const todoList = document.querySelector('.todo-list')
+// // console.log(todoList);
+// // todoList.after("<li>hello world</li>")
+// todoList.before("<li>hello world</li>")
+
+
+
+
+
+
+
+
+
+
+
+
+// practise ?????????????????????????????? 
+

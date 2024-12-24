@@ -6,3 +6,13 @@ btn.addEventListener('click',function(){
   console.log('you click me');
   console.log(this);
 })
+
+
+
+
+
+
+
+
+// practise 
+
