@@ -1,17 +1,15 @@
 // callback, callback hell, pyramid of doom
 // asynchronus programming
 
-
 const heading1 = document.querySelector('.heading1')
 const heading2 = document.querySelector('.heading2')
 const heading3 = document.querySelector('.heading3')
-const heading4 = document.querySelector('.heading')
+const heading4 = document.querySelector('.heading4')
 const heading5 = document.querySelector('.heading5')
 const heading6 = document.querySelector('.heading6')
 const heading7 = document.querySelector('.heading7')
 
-
-// callback hell 
+// callback hell
 // setTimeout(()=>{
 //   heading1.textContent = "heading 1";
 //   heading1.style.color ="violet";
@@ -56,7 +54,6 @@ const heading7 = document.querySelector('.heading7')
 
 
 
-
 function changeText(element, text, color, time, onSuccesscallback, onFailureCallback) {
   setTimeout(() => {
     if (element) {
@@ -68,14 +65,13 @@ function changeText(element, text, color, time, onSuccesscallback, onFailureCall
 
       onFailureCallback()
     }
-  }, time)
+  }, time) 
 
 }
 
 // pyramid of doom
 
 changeText(heading1, "heading 1", "purple", 2000, () => {
-
 
   changeText(heading2, "heading 2", "hotpink", 1000, () => {
 
@@ -98,3 +94,15 @@ changeText(heading1, "heading 1", "purple", 2000, () => {
 
   }, () => { console.log('element does not exit') })
 }, () => { console.log('element does not exit') })
+
+
+
+
+
+
+
+
+
+
+// practise ???????????????
+

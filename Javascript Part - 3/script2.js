@@ -1,46 +1,8 @@
-// understand callback
+// setTimeInterval 
 
-// function myFunction1(callback){
-// console.log('Function is dong some task 1');
-// callback()
-// }
-
-// function myFunction2(){
-//   console.log('Function is doing task 2 ');
-// }
-
-
-
-// myFunction1(myFunction2)
-// myFunction1(function(){
-//   console.log('fucntion is dong somtask');
-// })
-// myFunction1(()=>{
-//   console.log('you are doing your own task');
-// })
-
-
-
-
-
-
-
-// Another example of callback : a function can take as a function as a parameter called callback
-function getTwoNumber(num1,num2,onSucess,onFailure){
-  if(typeof num1 === "number" && typeof num2=== "number")
-  {
-    onSucess(num1,num2)
-  }
-  else{
-    onFailure()
-  }
-
-}
-
-
-getTwoNumber("12",13,(num1,num2)=>{
-  console.log(num1+num2);
-},()=>{
-  console.log('wrong input');
-  console.log('please pass number only');
-})
+console.log('script start');
+const id=  setInterval(()=>{
+  console.log(Math.floor(Math.random()*11)); // generate random number
+},1000)
+clearInterval(id)
+console.log('script end');
